@@ -1,0 +1,9 @@
+
+<codestructure version="1.4">
+<phptree>
+<treenode node="../admin.php;PHP:PHP Include;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\AltaEquipo.php;f9;2;21;2;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\MostrarEquipo.php;f9;1;21;1;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\ModificacionDeEquipo.php;f9;2;21;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="conexion.php;PHP:PHP Include;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\updateObjeto.php;f12;9;24;9;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\InsertEquipo.php;f11;9;23;9;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\DeleteEquip.php;f12;3;24;3;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\MostrarEquipo.php;f9;51;21;51;;C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\ModificacionDeEquipo.php;f12;7;24;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+</phptree>
+</codestructure>

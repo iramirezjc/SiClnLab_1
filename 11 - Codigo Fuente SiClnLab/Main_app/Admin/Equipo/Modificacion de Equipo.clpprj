@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\Modificacion de Equipo.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost//Modificacion de Equipo/]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost//Modificacion de Equipo/]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\AltaEquipo.php"/>
+  <file name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\MostrarEquipo.php"/>
+  <file name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\ModificacionDeEquipo.php"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3">
+  <errfile name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\type\icons.css">
+   <error val="2;171;23;171;2502;1;"/>
+  </errfile>
+  <errfile name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\codeLob\bootstrap.min.css">
+   <error val="84311;4;84315;4;2502;1;"/>
+  </errfile>
+ </errors>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file crc="1535528844000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\type\icons.css"/>
+  <file crc="1567514482000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\codeLob\jquery.min.js"/>
+  <file crc="1567514502000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\codeLob\bootstrap.min.js"/>
+  <file crc="1567514450000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\codeLob\bootstrap.min.css"/>
+  <file crc="1555845914000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\updateObjeto.php"/>
+  <file crc="1575530922242" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\MostrarEquipo.php"/>
+  <file crc="1575536805156" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\ModificacionDeEquipo.php"/>
+  <file crc="1559288366000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\InsertEquipo.php"/>
+  <file crc="1559813276000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\index.php"/>
+  <file crc="1559216580000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\Equipo.php"/>
+  <file crc="1559205916000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\DeleteEquip.php"/>
+  <file crc="1574963838000" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\conexion.php"/>
+  <file crc="1575534229785" name="C:\xampp\htdocs\SiClnLab\Main_app\Admin\Equipo\AltaEquipo.php"/>
+ </filescache>
+</project>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="C:\xampp\htdocs\prestamo consumible\prestamo consumible.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/C:/xampp/htdocs/prestamo consumible]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/C:/xampp/htdocs/prestamo consumible]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="C:\xampp\htdocs\prestamo consumible\llenar_prestamo.php"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\finalizar.php"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\login.php"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\prestamo_consumible.php"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <todoblock/>
+ <dbgurls/>
+ <filescache>
+  <file name="C:\xampp\htdocs\prestamo consumible\prestamo_consumible.php" crc="1559832582958"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\logout.php" crc="1559772365670"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\login.php" crc="1559836374278"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\llenar_prestamo.php" crc="1559836684072"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\finalizar.php" crc="1559836070524"/>
+  <file name="C:\xampp\htdocs\prestamo consumible\conexion.php" crc="1557336136000"/>
+ </filescache>
+</project>

@@ -1,0 +1,93 @@
+<?php
+require('lib.php');
+
+include("conexion.php");
+
+
+//declaras una fecha
+$fecha="2019-10-11";
+//la ingresas como parametro
+$formato=new DateTime($fecha);
+//Obtener el año
+$y=$formato->format("Y");
+//echo $y;
+//Obtener el mes
+$m=$formato->format("m");
+//echo $m;
+//Obtener el dia
+$d=$formato->format("d");
+//echo $d;
+
+
+$tiempo=array('Ene','Feb','Mar','Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic');
+
+$escalatiempo=array();
+$datos=array();
+
+
+ for ($k=10; $k <=12; $k++) { 
+
+$resultado =$mysqli->query("SELECT sum(monto) from compr where MONTH(fecha)=".$k." and YEAR(fecha)=".$y.";");
+$row = mysqli_fetch_array ($resultado);
+
+if($row["sum(monto)"]==null){
+
+array_push($datos, 0);
+array_push($escalatiempo, $tiempo[$k-1]);
+}
+else{
+	array_push($escalatiempo, $tiempo[$k-1]);
+	array_push($datos, $row["sum(monto)"]);
+	
+}
+
+
+
+		
+ }
+$rl=new Grafica_de_lineas;
+$rl->definir(500,700,"COSTOS",'$MXN',"MESES");
+$rl->escalatiempo=$escalatiempo;
+$rl->Agregar_linea("Moviliario",$datos,"#F00");
+$rl->imprimir_grafica();
+
+?>
+
+
+
+
+
+
+
+
+
+			require("lib.php");
+			include("conexion.php");
+			$tiempo=array("Ene","Feb","Mar","Abr","May","Jun","Jul","Ago","Sep","Oct","Nov","Dic");
+			$escalatiempo=array();
+			$datos=array();
+			for ($k='.($m_fin_costos-1).'; $k <='.$m_fin_costos.'; $k++) {
+				$resultado =$mysqli->query("SELECT sum(monto) from compr where MONTH(fecha)=".$k." and YEAR(fecha)='.$y_fin_costos.'");
+				$row = mysqli_fetch_array ($resultado);
+				if($row["sum(monto)"]==null){
+					array_push($datos, 0);
+					array_push($escalatiempo, $tiempo[$k-1]);
+					}
+					else{
+						array_push($escalatiempo, $tiempo[$k-1]);
+						array_push($datos, $row["sum(monto)"]);
+						}
+			}
+			$rl=new Grafica_de_lineas;
+$rl->definir(500,700,"COSTOS","MXN","MESES");
+$rl->escalatiempo=$escalatiempo;
+$rl->Agregar_linea("Moviliario",$datos,"#F00");
+$rl->imprimir_grafica();
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+
+html{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+body{
+
+background-color:#f8f3f3;
+	background-size: cover;
+}
+
+title{
+
+    font-family: Arial; font-size: 345pt;
+}
+
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], textarea {
+    width: 97%;
+	border-color:#000000;
+    height: 25px;
+    margin: 0 0 15px;
+    padding: 10px 1%;
+    font-size: 18px;
+text-align:center-left;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+    display: inline-block;
+    background:  #215D40; /*color del boton*/
+    padding: 5px 15px;
+    color: #fff;
+    border: 0 none;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+	opacity: .8;
+}
+
+.main input[type="text"], .main input[type="password"] {
+	
+	border: 1px solid rgba(183,131,74);
+}
+.main input[type="submit"] {
+    width: 99%;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+
+.main{
+	
+    width: 30%;
+	border: 1px solid rgba(183,131,74);
+    background-color: #fcfcfc;
+    text-align: left;
+	border-radius: 15px;
+	margin: 17% auto 0 auto;
+	padding: 3%;
+    position: relative;
+    opacity: 0.90;
+}
+
+.error{
+    background-color: #E74F4F;
+	
+    position: absolute;
+    top: 0;
+    padding: 10px 0 ;
+    border-radius:  0 0 5px 5px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    display: none;
+}

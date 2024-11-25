@@ -1,0 +1,24 @@
+
+
+form{
+
+    background: #f5f5f5;
+    min-width: 500px;
+    max-width: 500px;
+    min-height:400px;
+    max-width: 400px; 
+    padding: 5px 20px 0 20px;
+    margin: 50px auto;
+    border:none;
+    box-sizing: border-box;
+/*
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;*/
+}
+
+.titulo{
+    text-align: center;
+    margin: 1px;
+}

@@ -1,0 +1,16 @@
+nav {
+    border: 1px solid #ccc;
+}
+@media (max-width: 991.98px) {
+    .nav-vertical {
+        border: 1px solid #ccc;
+        right: -301px;
+        position: absolute;
+        width: 300px;
+        top: 57px;
+        transition: all .2s ease-out;
+    }
+    .active {
+        right: -1px;
+    }
+}
